@@ -124,3 +124,11 @@ def test_pagination_and_duplicate_evidence(env):
     with vm.expect_revert('pagination'):c.list_milestones(-1,20)
     accept(vm,c);submit(vm,c);mock(vm,answer=report('NOT_MET'));c.review('1')
     with vm.expect_revert('already reviewed'):submit(vm,c)
+
+def test_model_metadata_and_row_order_are_normalized(env):
+    vm,c=env;accept(vm,c);submit(vm,c);answer=report();answer['note']='Non-authoritative metadata';answer['checks'].reverse();answer['checks'][0]['explanation']='Ignored metadata';mock(vm,answer=answer);c.review('1')
+    result=load(c)['history'][0]['report'];assert result['outcome']=='APPROVED';assert [r['id'] for r in result['checks']]==[r['id'] for r in SPEC['criteria']];assert vm.run_validator()
+
+def test_duplicate_model_criterion_is_not_accepted(env):
+    vm,c=env;accept(vm,c);submit(vm,c);answer=report();answer['checks'][1]=answer['checks'][0];mock(vm,answer=answer)
+    with vm.expect_revert('Temporary'):c.review('1')

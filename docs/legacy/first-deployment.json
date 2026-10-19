@@ -1,0 +1,31 @@
+{
+  "network": "studionet",
+  "chain_id": 61999,
+  "rpc": "https://studio.genlayer.com/api",
+  "contract": "0x06cc38d8Bdaca4879765d913B7655b4dE3dC8e64",
+  "transactions": [
+    "0x6e335a82efbae52229ccc8da28db44f619d635f9a935dbc7e004c8f82f5ea983",
+    "0xe109d9330074bf68cf20396c8032221db604e7d4dbb1c796455a14b710b5adc7",
+    "0x43205e62147774cbc4b06fd4c083198970d43f9d9f82915cd86d3501f622da69",
+    "0x61434496a737176f535e0abbb8fd19bb59c18b6f7d276ea8974eaa230af8af9c",
+    "0x2f691cc34f34c33ea38f49e51d58d899a29a2b41efd1678eb7f35f4065fb45a0",
+    "0xca79b2b1f371abc1207e931640a25d6bf44a930cbe5f1cf960ec1c75e7f033a4",
+    "0x71cc3c837022a47089cb0deef23e94dd1b1a798555bd69c0fca9d1554edb6ffe",
+    "0x100376a0a4e1f993ed8b82778c9eed9bcc8732ecda6decc41d769f207eca45e5",
+    "0x3aef852567863fbed345ea0b9155f8aead13170364ac6d60a2014017243a0be1"
+  ],
+  "source_sha256": "656e1166340a9dd81c31fb50e5db19538cab3aaee5daea3d965c5d5dfd60fdae",
+  "pilot_ids": [
+    "1",
+    "2"
+  ],
+  "source_commit": "49bac8fb90d88ce84c9f34e0dbe8ccf480dea5e0",
+  "website": "https://milestonelock.ansaf1st34.chatgpt.site",
+  "failed_attempts": [
+    {
+      "hash": "0x6f7b6519d1646336ff770531f0dfafb760980237ffc1be504de01da6974510db",
+      "result": "MAJORITY_DISAGREE",
+      "effect": "No history entry; evidence revision retained."
+    }
+  ]
+}

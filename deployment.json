@@ -2,11 +2,13 @@
   "network": "studionet",
   "chain_id": 61999,
   "rpc": "https://studio.genlayer.com/api",
-  "contract": "0x06cc38d8Bdaca4879765d913B7655b4dE3dC8e64",
-  "transactions": [
-    "0x6e335a82efbae52229ccc8da28db44f619d635f9a935dbc7e004c8f82f5ea983"
+  "contract": null,
+  "transactions": [],
+  "source_sha256": "a4f2f27a00aa254852c68512879d0cacac5d7b4684492c604bae78a3ecad2502",
+  "pilot_ids": [
+    "1",
+    "2"
   ],
-  "source_sha256": "656e1166340a9dd81c31fb50e5db19538cab3aaee5daea3d965c5d5dfd60fdae",
-  "pilot_ids": [],
-  "source_commit": "49bac8fb90d88ce84c9f34e0dbe8ccf480dea5e0"
+  "website": "https://milestonelock.ansaf1st34.chatgpt.site",
+  "failed_attempts": []
 }

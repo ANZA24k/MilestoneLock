@@ -1,0 +1,13 @@
+{
+  "hash": "0x6f7b6519d1646336ff770531f0dfafb760980237ffc1be504de01da6974510db",
+  "status": "FINALIZED",
+  "consensus_result": "MAJORITY_DISAGREE",
+  "votes": {
+    "0x0B50B270Eba5D9B780272C4Cf4720260177e761D": "disagree",
+    "0x17ac0CaefB18205c737e64ee582c9245A28ca1f9": "disagree",
+    "0x40533175AfBbAee2c030F88259Afb5aEDbCF0E05": "disagree",
+    "0x5Bbbd7cdD63c0ba7f088038Cb049bDDAbE4F6fd1": "idle"
+  },
+  "effect": "No milestone decision stored. Original evidence revision remains pending.",
+  "leader_proposal": "{\"checks\":[{\"finding\":\"MET\"\"id\":\"form_labels\"\"quote\":\"<label for=\\\"email\\\">Email</label>\\n<input id=\\\"email\\\" name=\\\"email\\\" type=\\\"text\\\">\"},{\"finding\":\"NOT_MET\"\"id\":\"keyboard_submit\"\"quote\":\"<button type=\\\"submit\\\" tabindex=\\\"-1\\\">Send message</button>\"},{\"finding\":\"NOT_MET\"\"id\":\"required_email\"\"quote\":\"<input id=\\\"email\\\" name=\\\"email\\\" type=\\\"text\\\">\"},]\"evidence_rules\":\"MET\"\"outcome\":\"REJECTED\"\"reason\":\"SEMANTIC_REVIEW\"}"
+}

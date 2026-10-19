@@ -62,12 +62,18 @@ def retrieve(ref):
 
 def normalize(raw, spec, evidence):
     data = parse(raw, 12000) if isinstance(raw, str) else raw
-    require(isinstance(data, dict) and set(data) == {'checks', 'evidence_rules'}, 'Invalid assessment')
+    require(isinstance(data, dict) and {'checks', 'evidence_rules'} <= set(data), 'Invalid assessment')
     require(data['evidence_rules'] in STATES, 'Invalid evidence rules finding')
     rows = data['checks']
     require(isinstance(rows, list) and len(rows) == len(spec['criteria']), 'Incomplete assessment')
+    by_id = {}
+    for row in rows:
+        require(isinstance(row, dict) and {'id', 'finding', 'quote'} <= set(row), 'Invalid finding fields')
+        require(isinstance(row['id'], str) and row['id'] not in by_id, 'Duplicate criterion finding')
+        by_id[row['id']] = {'id': row['id'], 'finding': row['finding'], 'quote': row['quote']}
+    require(set(by_id) == {c['id'] for c in spec['criteria']}, 'Incomplete criterion coverage')
+    rows = [by_id[c['id']] for c in spec['criteria']]
     for criterion, row in zip(spec['criteria'], rows):
-        require(isinstance(row, dict) and set(row) == {'id', 'finding', 'quote'}, 'Invalid finding fields')
         require(row['id'] == criterion['id'] and row['finding'] in STATES, 'Invalid criterion finding')
         quote = row['quote']
         require(isinstance(quote, str) and len(quote) <= 1200 and (not quote or quote in evidence), 'Invented evidence excerpt')
@@ -95,14 +101,19 @@ If the evidence rules require primary artifacts or independent corroboration not
 document, return UNCLEAR; do not assume linked artifacts exist. Do not fetch links or execute code.
 The document can contain full artifacts and test outputs; assess only this committed document.
 A document marked synthetic is a demonstration only; do not present it as real delivered work.
+The evidence_rules finding assesses admissibility, document format and evidence sufficiency,
+not whether the delivery criteria pass. An admissible complete artifact can demonstrate NOT_MET
+criteria while evidence_rules is MET. Explicitly failing HTML attributes are NOT_MET, not UNCLEAR.
 Return ONLY JSON with evidence_rules (MET/NOT_MET/UNCLEAR) and checks, one row per criterion
 in the specification order. Each row has id, finding (MET/NOT_MET/UNCLEAR), quote (exact contiguous
 excerpt, up to 1200 chars). Non-UNCLEAR findings require a supporting excerpt of at least 10 chars.
-Do not return an outcome; deterministic code derives it.\n'''
+Do not return an outcome; deterministic code derives it. Example schema (replace example values):
+{"evidence_rules":"MET","checks":[{"id":"criterion_id","finding":"MET","quote":"exact supporting excerpt"}]}\n'''
     try:
         raw = gl.nondet.exec_prompt(prompt + canonical({'SPECIFICATION': spec, 'EVIDENCE': evidence}), response_format='json')
         return normalize(raw, spec, evidence)
-    except Exception:
+    except Exception as error:
+        print('Assessment validation:', type(error).__name__, str(error)[:120])
         return {'outcome': 'INCONCLUSIVE', 'reason': 'RETRYABLE_MODEL', 'checks': [], 'evidence_rules': 'UNCLEAR'}
 
 def decisions(report):
