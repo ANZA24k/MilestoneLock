@@ -1,0 +1,11 @@
+{
+  "title": "Accessible project handoff",
+  "deliverable": "Deliver a small accessible landing page with a contact form and reproducible validation output.",
+  "criteria": [
+    {"id": "form_labels", "requirement": "The contact form must associate a visible Email label with an email input using matching for and id attributes."},
+    {"id": "keyboard_submit", "requirement": "The form must include a native submit button reachable in normal keyboard tab order, without a negative tabindex."},
+    {"id": "required_email", "requirement": "The email input must use type=email and the required attribute to prevent an empty submission."}
+  ],
+  "evidence_rules": "Assess the complete HTML artifact embedded in the submitted UTF-8 document. The exact HTML attributes are primary evidence. Test assertions alone cannot override the HTML. This pilot uses synthetic artifacts and has no payment transfer.",
+  "reference_amount": "100 test credits (reference only; no escrow)"
+}

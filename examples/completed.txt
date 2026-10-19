@@ -1,0 +1,13 @@
+SYNTHETIC DEMONSTRATION — not a real customer delivery.
+Milestone: Accessible project handoff. Artifact version: completed-v1.
+This is the complete delivered HTML artifact:
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Contact</title></head>
+<body><main><h1>Contact the project team</h1><form>
+<label for="email">Email</label>
+<input id="email" name="email" type="email" required>
+<button type="submit">Send message</button>
+</form></main></body></html>
+Reproduction: Open the HTML, press Tab to reach the email field then the submit button.
+An empty email is invalid because the input carries the required attribute.
+The native button has no tabindex override. No external artifact is needed for these attribute checks.
