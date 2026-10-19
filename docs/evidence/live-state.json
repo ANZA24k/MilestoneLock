@@ -1,0 +1,357 @@
+{
+  "schema": "milestonelock.live.v1",
+  "checked_at": "2026-10-19T16:49:34.930Z",
+  "network": "studionet",
+  "contract": "0x007cdf675F66115d37e0E311a6669306f4D3b380",
+  "source_sha256": "a4f2f27a00aa254852c68512879d0cacac5d7b4684492c604bae78a3ecad2502",
+  "read_state": "LATEST_FINAL",
+  "transactions": [
+    {
+      "hash": "0x1d265988f717cadbe6ccd592a5381d8621edfa9bba52a9b382b1bdecaf2dcc38",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "mode": "NORMAL",
+      "consensus_result": "MAJORITY_AGREE",
+      "votes": {
+        "0x17ac0CaefB18205c737e64ee582c9245A28ca1f9": "idle",
+        "0x7bf4Ea55363bbe73A4dd5b3900bf03c978A63b6e": "idle",
+        "0x892C437da9b9CA0b6017B6f046F58E3526B46ec6": "agree",
+        "0xa21bc502E3578E4b3039be8c59a257198f7c3f19": "agree",
+        "0xb0925568bFbCF00aADBcA053E6D0E1628ff3d530": "agree"
+      }
+    },
+    {
+      "hash": "0xcb03cba9f5c68e3588117b5ce3374fc27bab464ce207693f142efb77d003a053",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "mode": "NORMAL",
+      "consensus_result": "MAJORITY_AGREE",
+      "votes": {
+        "0x1dEcE6A694520b1d3a2e24b9f28500858C756BDb": "agree",
+        "0x8Ce1805d6970d54748dE7160b5b395dCC5c71F44": "agree",
+        "0xe7eEe8a1c1690b0322d795B80A76ab2Cd1a0eAFd": "agree",
+        "0xf1C7551292319EE334e2D8A24eAC108Bd4C63b21": "idle",
+        "0xf29b6947ed298d139FC2655DB15D868C9AbB3091": "agree"
+      }
+    },
+    {
+      "hash": "0x381fb9dd537b130f40824eca6fcdb965a18e6cebd5bed33fb2808c31ff6d21c5",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "mode": "NORMAL",
+      "consensus_result": "MAJORITY_AGREE",
+      "votes": {
+        "0x892C437da9b9CA0b6017B6f046F58E3526B46ec6": "agree",
+        "0x8Ce1805d6970d54748dE7160b5b395dCC5c71F44": "idle",
+        "0x8a876C3F3a4783Bd123982bcBF3c672dc0239004": "agree",
+        "0xad7d13f269CeAd4379E64a1A3a0803a827e70B43": "agree",
+        "0xf1C7551292319EE334e2D8A24eAC108Bd4C63b21": "idle"
+      }
+    },
+    {
+      "hash": "0xc21511990bf3cc87f06d25ed58caede0ee381d84fcba1fa8ce2125b01688efe9",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "mode": "NORMAL",
+      "consensus_result": "MAJORITY_AGREE",
+      "votes": {
+        "0x17ac0CaefB18205c737e64ee582c9245A28ca1f9": "agree",
+        "0x7bf4Ea55363bbe73A4dd5b3900bf03c978A63b6e": "agree",
+        "0x8a876C3F3a4783Bd123982bcBF3c672dc0239004": "agree",
+        "0xb0925568bFbCF00aADBcA053E6D0E1628ff3d530": "agree",
+        "0xe7eEe8a1c1690b0322d795B80A76ab2Cd1a0eAFd": "agree"
+      }
+    },
+    {
+      "hash": "0x9dba2741ef1eccb798c00c52e0b57c327fc7a81290c553ef84ea993e6cf05d41",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "mode": "NORMAL",
+      "consensus_result": "MAJORITY_AGREE",
+      "votes": {
+        "0x8a876C3F3a4783Bd123982bcBF3c672dc0239004": "agree",
+        "0x9244De5F20cB75A0c51d79A9A3208D00a99aFc10": "idle",
+        "0xA712cB25a4002666FA9D09477251f238dD9e06b3": "idle",
+        "0xb0925568bFbCF00aADBcA053E6D0E1628ff3d530": "agree",
+        "0xf29b6947ed298d139FC2655DB15D868C9AbB3091": "agree"
+      }
+    },
+    {
+      "hash": "0x2b576ade936a4c45e2ee34a131dd4c685b4080622500c48ad385e73c54a2f755",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "mode": "NORMAL",
+      "consensus_result": "MAJORITY_AGREE",
+      "votes": {
+        "0x0B50B270Eba5D9B780272C4Cf4720260177e761D": "agree",
+        "0x2FcBC452425f2F1e102c5c04b4331fcB46ee1c00": "agree",
+        "0x40533175AfBbAee2c030F88259Afb5aEDbCF0E05": "agree",
+        "0x7bf4Ea55363bbe73A4dd5b3900bf03c978A63b6e": "agree",
+        "0xf29b6947ed298d139FC2655DB15D868C9AbB3091": "agree"
+      }
+    },
+    {
+      "hash": "0xf64ffa896acfc6faf7545c6a8b6f9f17479cbc4e736b0a62fb123be9fc41b2c9",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "mode": "NORMAL",
+      "consensus_result": "MAJORITY_AGREE",
+      "votes": {
+        "0x17ac0CaefB18205c737e64ee582c9245A28ca1f9": "agree",
+        "0x2FcBC452425f2F1e102c5c04b4331fcB46ee1c00": "agree",
+        "0x40533175AfBbAee2c030F88259Afb5aEDbCF0E05": "agree",
+        "0x892C437da9b9CA0b6017B6f046F58E3526B46ec6": "agree",
+        "0xa21bc502E3578E4b3039be8c59a257198f7c3f19": "agree"
+      }
+    },
+    {
+      "hash": "0x4ddbaae506f003cc12806315a2f1ff31e5dbd96649d99762f5e5b7a647a3a21c",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "mode": "NORMAL",
+      "consensus_result": "MAJORITY_AGREE",
+      "votes": {
+        "0x40533175AfBbAee2c030F88259Afb5aEDbCF0E05": "agree",
+        "0x7bf4Ea55363bbe73A4dd5b3900bf03c978A63b6e": "agree",
+        "0xA712cB25a4002666FA9D09477251f238dD9e06b3": "agree",
+        "0xad7d13f269CeAd4379E64a1A3a0803a827e70B43": "idle",
+        "0xf29b6947ed298d139FC2655DB15D868C9AbB3091": "idle"
+      }
+    },
+    {
+      "hash": "0x94a66d4ac3df4408908248ce09db8efa23f55a80516ce374c22ba20bad21dffc",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "mode": "NORMAL",
+      "consensus_result": "MAJORITY_AGREE",
+      "votes": {
+        "0x1242E9f5bf9b253327f130E8802b7b2F438A21Ef": "agree",
+        "0x6a4179A851B3747A458baD2f089AB2EeFE0eBbAb": "idle",
+        "0x9244De5F20cB75A0c51d79A9A3208D00a99aFc10": "idle",
+        "0xf1C7551292319EE334e2D8A24eAC108Bd4C63b21": "agree",
+        "0xf29b6947ed298d139FC2655DB15D868C9AbB3091": "agree"
+      }
+    },
+    {
+      "hash": "0x85f02939a77bdff81a5d901662050e15d4babbaafd30cacd87b6bca97ae48bc6",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "mode": "NORMAL",
+      "consensus_result": "MAJORITY_AGREE",
+      "votes": {
+        "0x0B50B270Eba5D9B780272C4Cf4720260177e761D": "agree",
+        "0x1242E9f5bf9b253327f130E8802b7b2F438A21Ef": "agree",
+        "0x1dEcE6A694520b1d3a2e24b9f28500858C756BDb": "agree",
+        "0x892C437da9b9CA0b6017B6f046F58E3526B46ec6": "agree",
+        "0x8Ce1805d6970d54748dE7160b5b395dCC5c71F44": "agree"
+      }
+    },
+    {
+      "hash": "0x426b20c1aabd1bcf11366005430eaf3072bb97b29a2956c6fd5d5642f46c43d5",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "mode": "NORMAL",
+      "consensus_result": "MAJORITY_AGREE",
+      "votes": {
+        "0x17ac0CaefB18205c737e64ee582c9245A28ca1f9": "idle",
+        "0x2FcBC452425f2F1e102c5c04b4331fcB46ee1c00": "disagree",
+        "0x5Bbbd7cdD63c0ba7f088038Cb049bDDAbE4F6fd1": "agree",
+        "0x9244De5F20cB75A0c51d79A9A3208D00a99aFc10": "agree",
+        "0xa21bc502E3578E4b3039be8c59a257198f7c3f19": "agree"
+      }
+    }
+  ],
+  "failed_attempts": [],
+  "documents": [
+    {
+      "bytes": 744,
+      "sha256": "c1fae174823299df8df2c066a9b3e7223938e5e0255bfa81f13ae177ea7ee288",
+      "url": "https://raw.githubusercontent.com/ANZA24k/MilestoneLock/99bbc74367d057a15584a798a182760121998586/examples/completed.txt",
+      "verified": true
+    },
+    {
+      "bytes": 704,
+      "sha256": "ebcf04bf9ab9c062aaa15ed8b7d4994a1530d591064423e4b15b1a7edb3c1849",
+      "url": "https://raw.githubusercontent.com/ANZA24k/MilestoneLock/99bbc74367d057a15584a798a182760121998586/examples/incomplete.txt",
+      "verified": true
+    }
+  ],
+  "records": [
+    {
+      "accepted": true,
+      "cancelled": false,
+      "commitment": "500306adba29751b55b901c5cd36736de13ef98cc97260431a0ca50d3ab54180",
+      "contractor": "0x34d4d16769e28843e122fec065c57fd863b2519a",
+      "evidence": {
+        "bytes": 744,
+        "sha256": "c1fae174823299df8df2c066a9b3e7223938e5e0255bfa81f13ae177ea7ee288",
+        "url": "https://raw.githubusercontent.com/ANZA24k/MilestoneLock/99bbc74367d057a15584a798a182760121998586/examples/completed.txt"
+      },
+      "history": [
+        {
+          "commitment": "500306adba29751b55b901c5cd36736de13ef98cc97260431a0ca50d3ab54180",
+          "decision_hash": "8613f9deab7301d6818f557717fb4b679b7f05ba6aab8504977ae7df4d57f85c",
+          "evidence": {
+            "bytes": 744,
+            "sha256": "c1fae174823299df8df2c066a9b3e7223938e5e0255bfa81f13ae177ea7ee288",
+            "url": "https://raw.githubusercontent.com/ANZA24k/MilestoneLock/99bbc74367d057a15584a798a182760121998586/examples/completed.txt"
+          },
+          "previous_hash": "500306adba29751b55b901c5cd36736de13ef98cc97260431a0ca50d3ab54180",
+          "report": {
+            "checks": [
+              {
+                "finding": "MET",
+                "id": "form_labels",
+                "quote": "<label for=\"email\">Email</label>\n<input id=\"email\" name=\"email\" type=\"email\" required>"
+              },
+              {
+                "finding": "MET",
+                "id": "keyboard_submit",
+                "quote": "<button type=\"submit\">Send message</button>"
+              },
+              {
+                "finding": "MET",
+                "id": "required_email",
+                "quote": "<input id=\"email\" name=\"email\" type=\"email\" required>"
+              }
+            ],
+            "evidence_rules": "MET",
+            "outcome": "APPROVED",
+            "reason": "SEMANTIC_REVIEW"
+          },
+          "reviewer": "0xe74b0c822c1af78046ca0304b2aa69160c6cc3b8",
+          "revision": 1
+        }
+      ],
+      "id": "1",
+      "policy": "milestonelock-1",
+      "revision": 1,
+      "specification": {
+        "criteria": [
+          {
+            "id": "form_labels",
+            "requirement": "The contact form must associate a visible Email label with an email input using matching for and id attributes."
+          },
+          {
+            "id": "keyboard_submit",
+            "requirement": "The form must include a native submit button reachable in normal keyboard tab order, without a negative tabindex."
+          },
+          {
+            "id": "required_email",
+            "requirement": "The email input must use type=email and the required attribute to prevent an empty submission."
+          }
+        ],
+        "deliverable": "Deliver a small accessible landing page with a contact form and reproducible validation output.",
+        "evidence_rules": "Assess the complete HTML artifact embedded in the submitted UTF-8 document. The exact HTML attributes are primary evidence. Test assertions alone cannot override the HTML. This pilot uses synthetic artifacts and has no payment transfer.",
+        "reference_amount": "100 test credits (reference only; no escrow)",
+        "title": "Accessible project handoff"
+      },
+      "sponsor": "0xe74b0c822c1af78046ca0304b2aa69160c6cc3b8"
+    },
+    {
+      "accepted": true,
+      "cancelled": false,
+      "commitment": "ea84fdc19bc314f4b56932749561d34d5842f35043a091ee22081de37d63d7b2",
+      "contractor": "0x34d4d16769e28843e122fec065c57fd863b2519a",
+      "evidence": {
+        "bytes": 744,
+        "sha256": "c1fae174823299df8df2c066a9b3e7223938e5e0255bfa81f13ae177ea7ee288",
+        "url": "https://raw.githubusercontent.com/ANZA24k/MilestoneLock/99bbc74367d057a15584a798a182760121998586/examples/completed.txt"
+      },
+      "history": [
+        {
+          "commitment": "ea84fdc19bc314f4b56932749561d34d5842f35043a091ee22081de37d63d7b2",
+          "decision_hash": "4fd9d071d7bc32fa7308ce28fde289a4d519687bc519e4148b5f30c892a58c86",
+          "evidence": {
+            "bytes": 704,
+            "sha256": "ebcf04bf9ab9c062aaa15ed8b7d4994a1530d591064423e4b15b1a7edb3c1849",
+            "url": "https://raw.githubusercontent.com/ANZA24k/MilestoneLock/99bbc74367d057a15584a798a182760121998586/examples/incomplete.txt"
+          },
+          "previous_hash": "ea84fdc19bc314f4b56932749561d34d5842f35043a091ee22081de37d63d7b2",
+          "report": {
+            "checks": [
+              {
+                "finding": "MET",
+                "id": "form_labels",
+                "quote": "<label for=\"email\">Email</label>\n<input id=\"email\" name=\"email\" type=\"text\">"
+              },
+              {
+                "finding": "NOT_MET",
+                "id": "keyboard_submit",
+                "quote": "<button type=\"submit\" tabindex=\"-1\">Send message</button>"
+              },
+              {
+                "finding": "NOT_MET",
+                "id": "required_email",
+                "quote": "<input id=\"email\" name=\"email\" type=\"text\">"
+              }
+            ],
+            "evidence_rules": "MET",
+            "outcome": "REJECTED",
+            "reason": "SEMANTIC_REVIEW"
+          },
+          "reviewer": "0xe74b0c822c1af78046ca0304b2aa69160c6cc3b8",
+          "revision": 1
+        },
+        {
+          "commitment": "ea84fdc19bc314f4b56932749561d34d5842f35043a091ee22081de37d63d7b2",
+          "decision_hash": "c3628d4fb4b7a47d0d69bbbdedce9927df9ab8a473dd16e440e136e6a176b7dd",
+          "evidence": {
+            "bytes": 744,
+            "sha256": "c1fae174823299df8df2c066a9b3e7223938e5e0255bfa81f13ae177ea7ee288",
+            "url": "https://raw.githubusercontent.com/ANZA24k/MilestoneLock/99bbc74367d057a15584a798a182760121998586/examples/completed.txt"
+          },
+          "previous_hash": "4fd9d071d7bc32fa7308ce28fde289a4d519687bc519e4148b5f30c892a58c86",
+          "report": {
+            "checks": [
+              {
+                "finding": "MET",
+                "id": "form_labels",
+                "quote": "<label for=\"email\">Email</label>\n<input id=\"email\" name=\"email\" type=\"email\" required>"
+              },
+              {
+                "finding": "MET",
+                "id": "keyboard_submit",
+                "quote": "<button type=\"submit\">Send message</button>"
+              },
+              {
+                "finding": "MET",
+                "id": "required_email",
+                "quote": "<input id=\"email\" name=\"email\" type=\"email\" required>"
+              }
+            ],
+            "evidence_rules": "MET",
+            "outcome": "APPROVED",
+            "reason": "SEMANTIC_REVIEW"
+          },
+          "reviewer": "0xe74b0c822c1af78046ca0304b2aa69160c6cc3b8",
+          "revision": 2
+        }
+      ],
+      "id": "2",
+      "policy": "milestonelock-1",
+      "revision": 2,
+      "specification": {
+        "criteria": [
+          {
+            "id": "form_labels",
+            "requirement": "The contact form must associate a visible Email label with an email input using matching for and id attributes."
+          },
+          {
+            "id": "keyboard_submit",
+            "requirement": "The form must include a native submit button reachable in normal keyboard tab order, without a negative tabindex."
+          },
+          {
+            "id": "required_email",
+            "requirement": "The email input must use type=email and the required attribute to prevent an empty submission."
+          }
+        ],
+        "deliverable": "Deliver a small accessible landing page with a contact form and reproducible validation output.",
+        "evidence_rules": "Assess the complete HTML artifact embedded in the submitted UTF-8 document. The exact HTML attributes are primary evidence. Test assertions alone cannot override the HTML. This pilot uses synthetic artifacts and has no payment transfer.",
+        "reference_amount": "100 test credits (reference only; no escrow)",
+        "title": "Accessible handoff — revision pilot"
+      },
+      "sponsor": "0xe74b0c822c1af78046ca0304b2aa69160c6cc3b8"
+    }
+  ]
+}

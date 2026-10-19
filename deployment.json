@@ -2,13 +2,26 @@
   "network": "studionet",
   "chain_id": 61999,
   "rpc": "https://studio.genlayer.com/api",
-  "contract": null,
-  "transactions": [],
+  "contract": "0x007cdf675F66115d37e0E311a6669306f4D3b380",
+  "transactions": [
+    "0x1d265988f717cadbe6ccd592a5381d8621edfa9bba52a9b382b1bdecaf2dcc38",
+    "0xcb03cba9f5c68e3588117b5ce3374fc27bab464ce207693f142efb77d003a053",
+    "0x381fb9dd537b130f40824eca6fcdb965a18e6cebd5bed33fb2808c31ff6d21c5",
+    "0xc21511990bf3cc87f06d25ed58caede0ee381d84fcba1fa8ce2125b01688efe9",
+    "0x9dba2741ef1eccb798c00c52e0b57c327fc7a81290c553ef84ea993e6cf05d41",
+    "0x2b576ade936a4c45e2ee34a131dd4c685b4080622500c48ad385e73c54a2f755",
+    "0xf64ffa896acfc6faf7545c6a8b6f9f17479cbc4e736b0a62fb123be9fc41b2c9",
+    "0x4ddbaae506f003cc12806315a2f1ff31e5dbd96649d99762f5e5b7a647a3a21c",
+    "0x94a66d4ac3df4408908248ce09db8efa23f55a80516ce374c22ba20bad21dffc",
+    "0x85f02939a77bdff81a5d901662050e15d4babbaafd30cacd87b6bca97ae48bc6",
+    "0x426b20c1aabd1bcf11366005430eaf3072bb97b29a2956c6fd5d5642f46c43d5"
+  ],
   "source_sha256": "a4f2f27a00aa254852c68512879d0cacac5d7b4684492c604bae78a3ecad2502",
   "pilot_ids": [
     "1",
     "2"
   ],
   "website": "https://milestonelock.ansaf1st34.chatgpt.site",
-  "failed_attempts": []
+  "failed_attempts": [],
+  "source_commit": "99bbc74367d057a15584a798a182760121998586"
 }

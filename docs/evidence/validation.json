@@ -1,0 +1,13 @@
+{
+  "source_sha256": "a4f2f27a00aa254852c68512879d0cacac5d7b4684492c604bae78a3ecad2502",
+  "python_direct_tests": 34,
+  "web_unit_tests": 4,
+  "genvm_lint": "passed",
+  "build": "passed",
+  "ci_commit": "99bbc74367d057a15584a798a182760121998586",
+  "ci_run": "https://github.com/ANZA24k/MilestoneLock/actions/runs/39240669538",
+  "ci_conclusion": "success",
+  "wallet_test": "EIP-1193 provider stub; address request only",
+  "real_metamask_extension_tested": false,
+  "browser_visual_qa": false
+}

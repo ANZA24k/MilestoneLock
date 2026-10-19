@@ -2,9 +2,13 @@
 
 **Work proven. Progress unlocked.** A GenLayer settlement approval platform that locks deliverables, criteria, and evidence rules before work begins.
 
+Public website: https://milestonelock.ansaf1st34.chatgpt.site
+
+Contract (Studionet): `0x007cdf675F66115d37e0E311a6669306f4D3b380`.
+
 ## What it does
 
-A sponsor creates an immutable milestone for a distinct contractor. The contractor accepts the exact commitment hash, then submits a public commit-pinned UTF-8 document with its SHA-256 and byte length. Any independent reviewer can request a GenLayer Full Consensus assessment. Validators independently retrieve and authenticate the evidence, infer every criterion and evidence-rule finding, compare the stable decisions, verify exact excerpts and separately ground the proposed report against the source.
+A sponsor creates an immutable milestone for a distinct contractor. The contractor accepts the exact commitment hash, then submits a public commit-pinned UTF-8 document with its SHA-256 and byte length. Any independent reviewer can request a GenLayer Full Consensus assessment. Validators independently retrieve and authenticate the evidence, infer every criterion and evidence-rule finding, normalize harmless metadata and criterion ordering, compare the stable decisions, verify exact excerpts and separately ground the proposed report against the source.
 
 Deterministic rules produce APPROVED only when every criterion and the evidence rules are MET. UNCLEAR yields INCONCLUSIVE; otherwise a NOT_MET finding yields REJECTED. A failed retrieval or invalid model response reverts without consuming the pending evidence revision. A hash/length mismatch becomes INCONCLUSIVE. Approved milestones are terminal; rejected/inconclusive evidence may be replaced at most twice with a new hash. All completed decisions remain in a hash-linked append-only history.
 
