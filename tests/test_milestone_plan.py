@@ -127,3 +127,23 @@ def test_pagination_and_atomic_bad_plan(env):
     assert json.loads(c.list_projects(0,20))['total']==1
     assert json.loads(c.list_milestones(0,20))['total']==2
     with vm.expect_revert('pagination'):c.list_projects(-1,20)
+
+def test_pending_revision_and_terminal_plan_guards(env):
+    vm,c=env;accept(vm,c)
+    with vm.expect_revert('Only pending'):c.cancel_unaccepted_project('1')
+    with vm.expect_revert('Only contractor'):c.submit_evidence_pack('1',json.dumps(pack()))
+    submit(vm,c)
+    with vm.expect_revert('Review pending'):submit(vm,c)
+    for i in range(3):
+        if i:
+            raw=GOOD+'\nRevision '+str(i);submit(vm,c,refs=pack(raw))
+        else:raw=GOOD
+        vm.clear_mocks();mock(vm,raw=raw,answer=report('NOT_MET'));c.review('1')
+        assert vm.run_validator()
+    with vm.expect_revert('Three evidence'):submit(vm,c,refs=pack(GOOD+'extra'))
+    assert load(c)['revision']==3 and len(load(c)['history'])==3
+
+def test_committed_invalid_utf8_is_inconclusive_not_retryable(env):
+    vm,c=env;accept(vm,c);raw=b'\xff'*40;refs=pack();refs[0]['sha256']=hashlib.sha256(raw).hexdigest();refs[0]['bytes']=len(raw);submit(vm,c,refs=refs)
+    vm.mock_web(re.escape(URL+'completed.txt'),{'status':200,'body':raw})
+    c.review('1');assert load(c)['history'][0]['report']['reason']=='SOURCE_ENCODING' and vm.run_validator()

@@ -1,0 +1,498 @@
+{
+  "schema": "milestonelock.plan-live.v2",
+  "checked_at": "2026-10-21T03:43:56.461Z",
+  "network": "studionet",
+  "contract": "0xc1B531B1f8bae23Bb3a942F78Df0ccee45705A2B",
+  "baseline_commit": "598b954d86fca5fc37b89c6df71258aa03cbfc21",
+  "source_sha256": "ebc9cce958c45177381680c09ff8c1585922a3328c35c842e5c2140ee302ad0e",
+  "read_state": "LATEST_FINAL",
+  "transactions": [
+    {
+      "hash": "0xe806292fb2181219eed728ad95103ac8f26d09a3e472f0401dc97567bae49321",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "mode": "NORMAL",
+      "consensus_result": "MAJORITY_AGREE",
+      "votes": {
+        "0x17ac0CaefB18205c737e64ee582c9245A28ca1f9": "agree",
+        "0x40533175AfBbAee2c030F88259Afb5aEDbCF0E05": "agree",
+        "0x7bf4Ea55363bbe73A4dd5b3900bf03c978A63b6e": "agree",
+        "0xa21bc502E3578E4b3039be8c59a257198f7c3f19": "agree",
+        "0xb0925568bFbCF00aADBcA053E6D0E1628ff3d530": "agree"
+      }
+    },
+    {
+      "hash": "0xb00f6e04b259671e2887e5faffe7fc683b4927be85606df1bc79a2a1301485d8",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "mode": "NORMAL",
+      "consensus_result": "MAJORITY_AGREE",
+      "votes": {
+        "0x0B50B270Eba5D9B780272C4Cf4720260177e761D": "agree",
+        "0x17ac0CaefB18205c737e64ee582c9245A28ca1f9": "agree",
+        "0x2FcBC452425f2F1e102c5c04b4331fcB46ee1c00": "agree",
+        "0xA712cB25a4002666FA9D09477251f238dD9e06b3": "agree",
+        "0xad7d13f269CeAd4379E64a1A3a0803a827e70B43": "agree"
+      }
+    },
+    {
+      "hash": "0xdc5ba4d9cb07eb13a6f64e18b6aab03e071391b33c4c3ea3db68d00b080f8fad",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "mode": "NORMAL",
+      "consensus_result": "MAJORITY_AGREE",
+      "votes": {
+        "0x17ac0CaefB18205c737e64ee582c9245A28ca1f9": "agree",
+        "0x1dEcE6A694520b1d3a2e24b9f28500858C756BDb": "idle",
+        "0x2FcBC452425f2F1e102c5c04b4331fcB46ee1c00": "agree",
+        "0x6a4179A851B3747A458baD2f089AB2EeFE0eBbAb": "idle",
+        "0x7bf4Ea55363bbe73A4dd5b3900bf03c978A63b6e": "agree"
+      }
+    },
+    {
+      "hash": "0x262e48509254a7499bd6eb8c396e9cd9ab92f89b7b7395a76f5818db4a1cb5cf",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "mode": "NORMAL",
+      "consensus_result": "MAJORITY_AGREE",
+      "votes": {
+        "0x9244De5F20cB75A0c51d79A9A3208D00a99aFc10": "agree",
+        "0xa21bc502E3578E4b3039be8c59a257198f7c3f19": "idle",
+        "0xad7d13f269CeAd4379E64a1A3a0803a827e70B43": "idle",
+        "0xb0925568bFbCF00aADBcA053E6D0E1628ff3d530": "agree",
+        "0xe7eEe8a1c1690b0322d795B80A76ab2Cd1a0eAFd": "agree"
+      }
+    },
+    {
+      "hash": "0x48afe443d2be3ab308c54d4de74dbf7607a4a15a7ff838e57b93739ec88354e7",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "mode": "NORMAL",
+      "consensus_result": "MAJORITY_AGREE",
+      "votes": {
+        "0x40533175AfBbAee2c030F88259Afb5aEDbCF0E05": "idle",
+        "0x892C437da9b9CA0b6017B6f046F58E3526B46ec6": "disagree",
+        "0x8Ce1805d6970d54748dE7160b5b395dCC5c71F44": "agree",
+        "0xad7d13f269CeAd4379E64a1A3a0803a827e70B43": "agree",
+        "0xb0925568bFbCF00aADBcA053E6D0E1628ff3d530": "agree"
+      }
+    },
+    {
+      "hash": "0xc50385f70f07ebf408845db093983ba6682b1bcb87b882c00181a873ec841cb2",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "mode": "NORMAL",
+      "consensus_result": "MAJORITY_AGREE",
+      "votes": {
+        "0x1242E9f5bf9b253327f130E8802b7b2F438A21Ef": "agree",
+        "0x8Ce1805d6970d54748dE7160b5b395dCC5c71F44": "agree",
+        "0xA712cB25a4002666FA9D09477251f238dD9e06b3": "agree",
+        "0xb0925568bFbCF00aADBcA053E6D0E1628ff3d530": "idle",
+        "0xe7eEe8a1c1690b0322d795B80A76ab2Cd1a0eAFd": "idle"
+      }
+    },
+    {
+      "hash": "0x1f192b0bd84bb38b9c002ca3e5b90a3f9a5ebfa92153f56a65a569155beaad5f",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "mode": "NORMAL",
+      "consensus_result": "MAJORITY_AGREE",
+      "votes": {
+        "0x1dEcE6A694520b1d3a2e24b9f28500858C756BDb": "agree",
+        "0x6a4179A851B3747A458baD2f089AB2EeFE0eBbAb": "agree",
+        "0x8a876C3F3a4783Bd123982bcBF3c672dc0239004": "disagree",
+        "0xA712cB25a4002666FA9D09477251f238dD9e06b3": "disagree",
+        "0xe7eEe8a1c1690b0322d795B80A76ab2Cd1a0eAFd": "agree"
+      }
+    },
+    {
+      "hash": "0x56c4cfcbb18718d820276d826137c5e9d2b5067ffe369792184f45cf9f9e5c52",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "mode": "NORMAL",
+      "consensus_result": "MAJORITY_AGREE",
+      "votes": {
+        "0x0B50B270Eba5D9B780272C4Cf4720260177e761D": "idle",
+        "0x1dEcE6A694520b1d3a2e24b9f28500858C756BDb": "idle",
+        "0x6a4179A851B3747A458baD2f089AB2EeFE0eBbAb": "agree",
+        "0x8Ce1805d6970d54748dE7160b5b395dCC5c71F44": "agree",
+        "0x9244De5F20cB75A0c51d79A9A3208D00a99aFc10": "agree"
+      }
+    },
+    {
+      "hash": "0x6aa83f0895b7ba8c5176b5f80ef0be76434cbe2a36503553911e17d59cf1ed83",
+      "status": "FINALIZED",
+      "execution": "SUCCESS",
+      "mode": "NORMAL",
+      "consensus_result": "MAJORITY_AGREE",
+      "votes": {
+        "0x17ac0CaefB18205c737e64ee582c9245A28ca1f9": "agree",
+        "0x2FcBC452425f2F1e102c5c04b4331fcB46ee1c00": "idle",
+        "0x8a876C3F3a4783Bd123982bcBF3c672dc0239004": "idle",
+        "0xad7d13f269CeAd4379E64a1A3a0803a827e70B43": "agree",
+        "0xb0925568bFbCF00aADBcA053E6D0E1628ff3d530": "agree"
+      }
+    }
+  ],
+  "blocked_attempts": [
+    {
+      "hash": "0x20bc2b2f1d46c401d73d5d5de5fd2d404e072cff1694b007b204ba762006cd80",
+      "status": "FINALIZED",
+      "execution": "ERROR",
+      "reason": "Predecessor not approved",
+      "consensus_result": "MAJORITY_AGREE",
+      "effect": "No evidence revision stored."
+    }
+  ],
+  "documents": [
+    {
+      "bytes": 744,
+      "id": "artifact",
+      "role": "DELIVERABLE",
+      "sha256": "c1fae174823299df8df2c066a9b3e7223938e5e0255bfa81f13ae177ea7ee288",
+      "url": "https://raw.githubusercontent.com/ANZA24k/MilestoneLock/0469067713b69c9e29b1bf132817f982312fa0fa/examples/completed.txt",
+      "verified": true
+    },
+    {
+      "bytes": 381,
+      "id": "checks",
+      "role": "CORROBORATION",
+      "sha256": "966f3c4a8e127dba6052065fd0ae30393a2f82b5ba13ffa9c5a4aec2f0b2ed59",
+      "url": "https://raw.githubusercontent.com/ANZA24k/MilestoneLock/0469067713b69c9e29b1bf132817f982312fa0fa/examples/checks.txt",
+      "verified": true
+    },
+    {
+      "bytes": 704,
+      "id": "artifact",
+      "role": "DELIVERABLE",
+      "sha256": "ebcf04bf9ab9c062aaa15ed8b7d4994a1530d591064423e4b15b1a7edb3c1849",
+      "url": "https://raw.githubusercontent.com/ANZA24k/MilestoneLock/0469067713b69c9e29b1bf132817f982312fa0fa/examples/incomplete.txt",
+      "verified": true
+    }
+  ],
+  "projects": [
+    {
+      "accepted": true,
+      "approved_count": 2,
+      "cancelled": false,
+      "commitment": "a437cee628aad5d542e50242675b09cde4aa67f24d615988e7784c16dbabedf1",
+      "contractor": "0x0d9c5ab70d529cfa74e2b03d1fff57ae1e81a1ce",
+      "id": "1",
+      "milestones": [
+        {
+          "id": "1",
+          "specification": {
+            "criteria": [
+              {
+                "id": "form_labels",
+                "requirement": "The contact form must associate a visible Email label with an email input using matching for and id attributes."
+              },
+              {
+                "id": "keyboard_submit",
+                "requirement": "The form must include a native submit button reachable in normal keyboard tab order, without a negative tabindex."
+              },
+              {
+                "id": "required_email",
+                "requirement": "The email input must use type=email and the required attribute to prevent an empty submission."
+              }
+            ],
+            "deliverable": "Deliver a small accessible landing page with a contact form and reproducible validation output.",
+            "evidence_rules": "Accept a synthetic UTF-8 evidence pack with exactly one complete HTML deliverable and one CORROBORATION document containing a static check report. Judge the HTML itself against every criterion; corroboration cannot override contradictory HTML. Demonstration only; no claim of real user delivery.",
+            "reference_amount": "100 test credits (reference only; no escrow)",
+            "title": "Accessible form implementation"
+          }
+        },
+        {
+          "id": "2",
+          "specification": {
+            "criteria": [
+              {
+                "id": "form_labels",
+                "requirement": "The contact form must associate a visible Email label with an email input using matching for and id attributes."
+              },
+              {
+                "id": "keyboard_submit",
+                "requirement": "The form must include a native submit button reachable in normal keyboard tab order, without a negative tabindex."
+              },
+              {
+                "id": "required_email",
+                "requirement": "The email input must use type=email and the required attribute to prevent an empty submission."
+              }
+            ],
+            "deliverable": "Deliver a small accessible landing page with a contact form and reproducible validation output.",
+            "evidence_rules": "Accept a synthetic UTF-8 evidence pack with exactly one complete HTML deliverable and one CORROBORATION document containing a static check report. Judge the HTML itself against every criterion; corroboration cannot override contradictory HTML. Demonstration only; no claim of real user delivery.",
+            "reference_amount": "100 test credits (reference only; no escrow)",
+            "title": "Accessible form handoff"
+          }
+        }
+      ],
+      "policy": "milestonelock-plan-2",
+      "progress": [
+        {
+          "approved": true,
+          "depends_on": null,
+          "id": "1",
+          "revision": 1
+        },
+        {
+          "approved": true,
+          "depends_on": "1",
+          "id": "2",
+          "revision": 2
+        }
+      ],
+      "sponsor": "0x8c2abcd84c20090045ed1159b95a8ae8e0ef1551",
+      "title": "Synthetic accessible delivery · two-step pilot"
+    }
+  ],
+  "records": [
+    {
+      "accepted": true,
+      "cancelled": false,
+      "commitment": "9ea72efccb95e0de9346cccd7afb2ce9a446046f36aa95d40b01009fc5e2ae65",
+      "contractor": "0x0d9c5ab70d529cfa74e2b03d1fff57ae1e81a1ce",
+      "depends_on": null,
+      "evidence": [
+        {
+          "bytes": 744,
+          "id": "artifact",
+          "role": "DELIVERABLE",
+          "sha256": "c1fae174823299df8df2c066a9b3e7223938e5e0255bfa81f13ae177ea7ee288",
+          "url": "https://raw.githubusercontent.com/ANZA24k/MilestoneLock/0469067713b69c9e29b1bf132817f982312fa0fa/examples/completed.txt"
+        },
+        {
+          "bytes": 381,
+          "id": "checks",
+          "role": "CORROBORATION",
+          "sha256": "966f3c4a8e127dba6052065fd0ae30393a2f82b5ba13ffa9c5a4aec2f0b2ed59",
+          "url": "https://raw.githubusercontent.com/ANZA24k/MilestoneLock/0469067713b69c9e29b1bf132817f982312fa0fa/examples/checks.txt"
+        }
+      ],
+      "history": [
+        {
+          "commitment": "9ea72efccb95e0de9346cccd7afb2ce9a446046f36aa95d40b01009fc5e2ae65",
+          "decision_hash": "83aa82d7b7ebe194639b88c3f36f8ed949350abf2d2a220b866605c2c31117d8",
+          "evidence": [
+            {
+              "bytes": 744,
+              "id": "artifact",
+              "role": "DELIVERABLE",
+              "sha256": "c1fae174823299df8df2c066a9b3e7223938e5e0255bfa81f13ae177ea7ee288",
+              "url": "https://raw.githubusercontent.com/ANZA24k/MilestoneLock/0469067713b69c9e29b1bf132817f982312fa0fa/examples/completed.txt"
+            },
+            {
+              "bytes": 381,
+              "id": "checks",
+              "role": "CORROBORATION",
+              "sha256": "966f3c4a8e127dba6052065fd0ae30393a2f82b5ba13ffa9c5a4aec2f0b2ed59",
+              "url": "https://raw.githubusercontent.com/ANZA24k/MilestoneLock/0469067713b69c9e29b1bf132817f982312fa0fa/examples/checks.txt"
+            }
+          ],
+          "previous_hash": "9ea72efccb95e0de9346cccd7afb2ce9a446046f36aa95d40b01009fc5e2ae65",
+          "report": {
+            "checks": [
+              {
+                "finding": "MET",
+                "id": "form_labels",
+                "quote": "<label for=\"email\">Email</label>\n<input id=\"email\" name=\"email\" type=\"email\" required>",
+                "source_id": "artifact"
+              },
+              {
+                "finding": "MET",
+                "id": "keyboard_submit",
+                "quote": "<input id=\"email\" name=\"email\" type=\"email\" required>\n<button type=\"submit\">Send message</button>\n</form></main></body></html>\nReproduction: Open the HTML, press Tab to reach the email field then the submit button.\nAn empty email is invalid because the input carries the required attribute.\nThe native button has no tabindex override.",
+                "source_id": "artifact"
+              },
+              {
+                "finding": "MET",
+                "id": "required_email",
+                "quote": "<input id=\"email\" name=\"email\" type=\"email\" required>",
+                "source_id": "artifact"
+              }
+            ],
+            "evidence_rules": "MET",
+            "outcome": "APPROVED",
+            "reason": "SEMANTIC_REVIEW"
+          },
+          "reviewer": "0x8c2abcd84c20090045ed1159b95a8ae8e0ef1551",
+          "revision": 1
+        }
+      ],
+      "id": "1",
+      "policy": "milestonelock-plan-2",
+      "position": 1,
+      "project_commitment": "a437cee628aad5d542e50242675b09cde4aa67f24d615988e7784c16dbabedf1",
+      "project_id": "1",
+      "revision": 1,
+      "specification": {
+        "criteria": [
+          {
+            "id": "form_labels",
+            "requirement": "The contact form must associate a visible Email label with an email input using matching for and id attributes."
+          },
+          {
+            "id": "keyboard_submit",
+            "requirement": "The form must include a native submit button reachable in normal keyboard tab order, without a negative tabindex."
+          },
+          {
+            "id": "required_email",
+            "requirement": "The email input must use type=email and the required attribute to prevent an empty submission."
+          }
+        ],
+        "deliverable": "Deliver a small accessible landing page with a contact form and reproducible validation output.",
+        "evidence_rules": "Accept a synthetic UTF-8 evidence pack with exactly one complete HTML deliverable and one CORROBORATION document containing a static check report. Judge the HTML itself against every criterion; corroboration cannot override contradictory HTML. Demonstration only; no claim of real user delivery.",
+        "reference_amount": "100 test credits (reference only; no escrow)",
+        "title": "Accessible form implementation"
+      },
+      "sponsor": "0x8c2abcd84c20090045ed1159b95a8ae8e0ef1551"
+    },
+    {
+      "accepted": true,
+      "cancelled": false,
+      "commitment": "50c9292ca65c0b0580fa4f59e1c421618fd458eb28eb060c3c58deb785eecc2e",
+      "contractor": "0x0d9c5ab70d529cfa74e2b03d1fff57ae1e81a1ce",
+      "depends_on": "1",
+      "evidence": [
+        {
+          "bytes": 744,
+          "id": "artifact",
+          "role": "DELIVERABLE",
+          "sha256": "c1fae174823299df8df2c066a9b3e7223938e5e0255bfa81f13ae177ea7ee288",
+          "url": "https://raw.githubusercontent.com/ANZA24k/MilestoneLock/0469067713b69c9e29b1bf132817f982312fa0fa/examples/completed.txt"
+        },
+        {
+          "bytes": 381,
+          "id": "checks",
+          "role": "CORROBORATION",
+          "sha256": "966f3c4a8e127dba6052065fd0ae30393a2f82b5ba13ffa9c5a4aec2f0b2ed59",
+          "url": "https://raw.githubusercontent.com/ANZA24k/MilestoneLock/0469067713b69c9e29b1bf132817f982312fa0fa/examples/checks.txt"
+        }
+      ],
+      "history": [
+        {
+          "commitment": "50c9292ca65c0b0580fa4f59e1c421618fd458eb28eb060c3c58deb785eecc2e",
+          "decision_hash": "cfa79580a7a554f3915f41e22b7b1894e794b47ac9c1189016b6a5ecd2749202",
+          "evidence": [
+            {
+              "bytes": 704,
+              "id": "artifact",
+              "role": "DELIVERABLE",
+              "sha256": "ebcf04bf9ab9c062aaa15ed8b7d4994a1530d591064423e4b15b1a7edb3c1849",
+              "url": "https://raw.githubusercontent.com/ANZA24k/MilestoneLock/0469067713b69c9e29b1bf132817f982312fa0fa/examples/incomplete.txt"
+            },
+            {
+              "bytes": 381,
+              "id": "checks",
+              "role": "CORROBORATION",
+              "sha256": "966f3c4a8e127dba6052065fd0ae30393a2f82b5ba13ffa9c5a4aec2f0b2ed59",
+              "url": "https://raw.githubusercontent.com/ANZA24k/MilestoneLock/0469067713b69c9e29b1bf132817f982312fa0fa/examples/checks.txt"
+            }
+          ],
+          "previous_hash": "50c9292ca65c0b0580fa4f59e1c421618fd458eb28eb060c3c58deb785eecc2e",
+          "report": {
+            "checks": [
+              {
+                "finding": "MET",
+                "id": "form_labels",
+                "quote": "<label for=\"email\">Email</label>\n<input id=\"email\" name=\"email\" type=\"text\">",
+                "source_id": "artifact"
+              },
+              {
+                "finding": "NOT_MET",
+                "id": "keyboard_submit",
+                "quote": "<button type=\"submit\" tabindex=\"-1\">Send message</button>",
+                "source_id": "artifact"
+              },
+              {
+                "finding": "NOT_MET",
+                "id": "required_email",
+                "quote": "<input id=\"email\" name=\"email\" type=\"text\">",
+                "source_id": "artifact"
+              }
+            ],
+            "evidence_rules": "MET",
+            "outcome": "REJECTED",
+            "reason": "SEMANTIC_REVIEW"
+          },
+          "reviewer": "0x8c2abcd84c20090045ed1159b95a8ae8e0ef1551",
+          "revision": 1
+        },
+        {
+          "commitment": "50c9292ca65c0b0580fa4f59e1c421618fd458eb28eb060c3c58deb785eecc2e",
+          "decision_hash": "6985fe4d65444d94b59c09c233dcd1b5367db0e129f80115fb5c50febfbcba20",
+          "evidence": [
+            {
+              "bytes": 744,
+              "id": "artifact",
+              "role": "DELIVERABLE",
+              "sha256": "c1fae174823299df8df2c066a9b3e7223938e5e0255bfa81f13ae177ea7ee288",
+              "url": "https://raw.githubusercontent.com/ANZA24k/MilestoneLock/0469067713b69c9e29b1bf132817f982312fa0fa/examples/completed.txt"
+            },
+            {
+              "bytes": 381,
+              "id": "checks",
+              "role": "CORROBORATION",
+              "sha256": "966f3c4a8e127dba6052065fd0ae30393a2f82b5ba13ffa9c5a4aec2f0b2ed59",
+              "url": "https://raw.githubusercontent.com/ANZA24k/MilestoneLock/0469067713b69c9e29b1bf132817f982312fa0fa/examples/checks.txt"
+            }
+          ],
+          "previous_hash": "cfa79580a7a554f3915f41e22b7b1894e794b47ac9c1189016b6a5ecd2749202",
+          "report": {
+            "checks": [
+              {
+                "finding": "MET",
+                "id": "form_labels",
+                "quote": "<label for=\"email\">Email</label>\n<input id=\"email\" name=\"email\" type=\"email\" required>",
+                "source_id": "artifact"
+              },
+              {
+                "finding": "MET",
+                "id": "keyboard_submit",
+                "quote": "<button type=\"submit\">Send message</button>",
+                "source_id": "artifact"
+              },
+              {
+                "finding": "MET",
+                "id": "required_email",
+                "quote": "<input id=\"email\" name=\"email\" type=\"email\" required>",
+                "source_id": "artifact"
+              }
+            ],
+            "evidence_rules": "MET",
+            "outcome": "APPROVED",
+            "reason": "SEMANTIC_REVIEW"
+          },
+          "reviewer": "0x8c2abcd84c20090045ed1159b95a8ae8e0ef1551",
+          "revision": 2
+        }
+      ],
+      "id": "2",
+      "policy": "milestonelock-plan-2",
+      "position": 2,
+      "project_commitment": "a437cee628aad5d542e50242675b09cde4aa67f24d615988e7784c16dbabedf1",
+      "project_id": "1",
+      "revision": 2,
+      "specification": {
+        "criteria": [
+          {
+            "id": "form_labels",
+            "requirement": "The contact form must associate a visible Email label with an email input using matching for and id attributes."
+          },
+          {
+            "id": "keyboard_submit",
+            "requirement": "The form must include a native submit button reachable in normal keyboard tab order, without a negative tabindex."
+          },
+          {
+            "id": "required_email",
+            "requirement": "The email input must use type=email and the required attribute to prevent an empty submission."
+          }
+        ],
+        "deliverable": "Deliver a small accessible landing page with a contact form and reproducible validation output.",
+        "evidence_rules": "Accept a synthetic UTF-8 evidence pack with exactly one complete HTML deliverable and one CORROBORATION document containing a static check report. Judge the HTML itself against every criterion; corroboration cannot override contradictory HTML. Demonstration only; no claim of real user delivery.",
+        "reference_amount": "100 test credits (reference only; no escrow)",
+        "title": "Accessible form handoff"
+      },
+      "sponsor": "0x8c2abcd84c20090045ed1159b95a8ae8e0ef1551"
+    }
+  ]
+}

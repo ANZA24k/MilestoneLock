@@ -1,3 +1,13 @@
+# New milestone update: project plans and evidence packs
+
+[Public project-plan workspace](https://milestonelock.ansaf1st34.chatgpt.site/plans.html) · [Release delta and steward path](docs/MILESTONE_V1.md)
+
+The new `MilestonePlan` Intelligent Contract locks an ordered project of 2–6 milestones in one commitment. The contractor accepts the complete plan. Each later milestone requires approval of its predecessor before evidence can be submitted. Each revision commits 1–3 independently retrieved documents, with exactly one primary deliverable, explicit source roles, hashes and byte counts. Validator excerpts identify the exact source document. Supporting claims cannot override contradictory primary artifacts.
+
+The accepted standalone release below stays available at its existing contract and root workspace. The new deployment uses `plan-deployment.json`; no ownership or state is migrated. Read the [new release evidence](docs/evidence/plan-live-state.json) and run `npm run verify:plans` to independently recheck finalized state, deployed source, consensus results, source bytes and receipt chains.
+
+---
+
 # MilestoneLock
 
 **Work proven. Progress unlocked.** A GenLayer settlement approval platform that locks deliverables, criteria, and evidence rules before work begins.

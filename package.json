@@ -1,13 +1,14 @@
 {
   "name": "milestonelock",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "type": "module",
   "scripts": {
     "build": "node scripts/build.mjs",
     "test:web": "node --test tests/web.test.mjs",
     "verify:live": "node scripts/verify-live.mjs",
-    "verify:site": "node scripts/verify-site.mjs"
+    "verify:site": "node scripts/verify-site.mjs",
+    "verify:plans": "node scripts/verify-plan-live.mjs"
   },
   "dependencies": {
     "genlayer-js": "1.1.8"

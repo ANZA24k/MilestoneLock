@@ -1,0 +1,24 @@
+{
+  "schema": "milestonelock.plan-validation.v2",
+  "baseline_commit": "598b954d86fca5fc37b89c6df71258aa03cbfc21",
+  "contract_tests": {
+    "total": 67,
+    "baseline": 34,
+    "new": 33,
+    "runner": "genlayer-test official Direct Mode, SDK v0.2.16",
+    "web_and_model": "mocked; not network voting"
+  },
+  "web_tests": {
+    "total": 6,
+    "command": "npm run test:web"
+  },
+  "build": "npm run build passed",
+  "linter": "Both contracts validated by genvm-lint check and CI; new contract has 9 public methods",
+  "live_verification": "npm run verify:plans; see plan-live-state.json",
+  "site_verification": "npm run verify:site",
+  "limits": [
+    "No website visual/mobile browser QA available",
+    "No real MetaMask extension test; writes use Studio built-in accounts",
+    "Synthetic evidence only; no escrow or fund transfer"
+  ]
+}
