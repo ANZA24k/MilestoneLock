@@ -1,0 +1,6 @@
+SYNTHETIC STATIC CHECK REPORT — demonstration only.
+Checks performed by inspecting the submitted HTML, without running browser code.
+Email label: label[for=email] matches input[id=email].
+Keyboard access: native submit button without negative tabindex.
+Email input: type=email and required.
+The full HTML deliverable remains the primary evidence; this report cannot override it.

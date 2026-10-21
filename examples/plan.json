@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Accessible form implementation",
+    "deliverable": "Deliver a small accessible landing page with a contact form and reproducible validation output.",
+    "criteria": [
+      {
+        "id": "form_labels",
+        "requirement": "The contact form must associate a visible Email label with an email input using matching for and id attributes."
+      },
+      {
+        "id": "keyboard_submit",
+        "requirement": "The form must include a native submit button reachable in normal keyboard tab order, without a negative tabindex."
+      },
+      {
+        "id": "required_email",
+        "requirement": "The email input must use type=email and the required attribute to prevent an empty submission."
+      }
+    ],
+    "evidence_rules": "Accept a synthetic UTF-8 evidence pack with exactly one complete HTML deliverable and one CORROBORATION document containing a static check report. Judge the HTML itself against every criterion; corroboration cannot override contradictory HTML. Demonstration only; no claim of real user delivery.",
+    "reference_amount": "100 test credits (reference only; no escrow)"
+  },
+  {
+    "title": "Accessible form handoff",
+    "deliverable": "Deliver a small accessible landing page with a contact form and reproducible validation output.",
+    "criteria": [
+      {
+        "id": "form_labels",
+        "requirement": "The contact form must associate a visible Email label with an email input using matching for and id attributes."
+      },
+      {
+        "id": "keyboard_submit",
+        "requirement": "The form must include a native submit button reachable in normal keyboard tab order, without a negative tabindex."
+      },
+      {
+        "id": "required_email",
+        "requirement": "The email input must use type=email and the required attribute to prevent an empty submission."
+      }
+    ],
+    "evidence_rules": "Accept a synthetic UTF-8 evidence pack with exactly one complete HTML deliverable and one CORROBORATION document containing a static check report. Judge the HTML itself against every criterion; corroboration cannot override contradictory HTML. Demonstration only; no claim of real user delivery.",
+    "reference_amount": "100 test credits (reference only; no escrow)"
+  }
+]

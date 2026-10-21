@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "chain_id": 61999,
+  "rpc": "https://studio.genlayer.com/api",
+  "contract": null,
+  "baseline_commit": "598b954d86fca5fc37b89c6df71258aa03cbfc21",
+  "transactions": []
+}
