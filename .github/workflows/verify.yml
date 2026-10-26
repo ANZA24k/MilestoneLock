@@ -23,3 +23,26 @@ jobs:
       - run: pytest -q tests
       - run: genvm-lint check contracts/milestone_lock.py
       - run: genvm-lint check contracts/milestone_plan.py
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: milestonelock-v2-site
+          path: dist/
+          retention-days: 14
+  live-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: npm run audit:receipt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: milestonelock-v2-live-audit
+          path: artifacts/milestone-v2-audit.json
+          retention-days: 14
