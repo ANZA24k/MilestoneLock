@@ -52,3 +52,7 @@ Python direct tests run the pinned official SDK v0.2.16. Web tests cover the URL
 Use a raw GitHub `.txt` URL pinned to a full 40-character commit. The complete document is limited to 30,000 bytes; immutable criteria (maximum six) state what evidence is sufficient. If they require outside corroboration that is not present, validators must return UNCLEAR. References inside evidence are never fetched implicitly. Only the single committed document is assessed.
 
 The contract has no privileged verdict setter, upgrade method, evidence-deletion method or global finite record slot. Records are auto-numbered and views paginate. The sponsor may cancel only before contractor acceptance. New records, acceptance and evidence submission have deterministic role guards. Review is permissionless but each evidence revision can produce only one completed decision.
+
+## Milestone v2: revision audit
+
+Open [/audit.html](https://milestonelock.ansaf1st34.chatgpt.site/audit.html) for per-criterion revision comparison, historical source checks, imported receipt provenance against finalized state, and audit exports. Both existing contract addresses are preserved. See [the v2 review guide](docs/MILESTONE_V2.md) and [dated live verification](docs/evidence/v2-audit-live.json).

@@ -2,7 +2,7 @@ export const canonical=v=>JSON.stringify(sort(v));
 function sort(v){return Array.isArray(v)?v.map(sort):v&&typeof v==='object'?Object.fromEntries(Object.keys(v).sort().map(k=>[k,sort(v[k])])):v;}
 // Contract canonical JSON uses ensure_ascii=True, including UTF-16 surrogate pairs.
 export const contractCanonical=v=>canonical(v).replace(/[\u007f-\uffff]/g,c=>'\\u'+c.charCodeAt(0).toString(16).padStart(4,'0'));
-export async function sha(text){const bytes=typeof text==='string'?new TextEncoder().encode(text):text;return Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',bytes)),v=>v.toString(16).padStart(2,'0')).join('');}
+export async function sha(text){if(!globalThis.crypto?.subtle)throw Error('Hash verification requires HTTPS. Open the public website.');const bytes=typeof text==='string'?new TextEncoder().encode(text):text;return Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',bytes)),v=>v.toString(16).padStart(2,'0')).join('');}
 export function safeURL(url){return /^https:\/\/raw\.githubusercontent\.com\/[A-Za-z0-9_-]+\/[A-Za-z0-9_.-]+\/[0-9a-f]{40}\/[A-Za-z0-9_./-]+\.txt$/.test(url)&&url.length<=350&&url.slice('https://raw.githubusercontent.com/'.length).split('/').every(p=>p!==''&&p!=='.'&&p!=='..');}
 export function address(v){return /^0x[0-9a-fA-F]{40}$/.test(v);}
 export async function connectWallet(provider){if(!provider?.request)throw Error('No browser wallet found. Use GenLayer Studio’s built-in account.');const accounts=await provider.request({method:'eth_requestAccounts'});if(!Array.isArray(accounts)||!address(accounts[0]))throw Error('Wallet returned an invalid address.');return accounts[0];}

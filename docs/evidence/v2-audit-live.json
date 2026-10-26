@@ -1,0 +1,138 @@
+{
+  "schema": "milestonelock.v2-live-audit.v1",
+  "checked_at": "2026-10-26T04:39:12.522Z",
+  "contract": "0xc1B531B1f8bae23Bb3a942F78Df0ccee45705A2B",
+  "chain_id": 61999,
+  "read_state": "LATEST_FINAL",
+  "contract_source_unchanged": true,
+  "source_sha256": "ebc9cce958c45177381680c09ff8c1585922a3328c35c842e5c2140ee302ad0e",
+  "provenance": {
+    "integrity": true,
+    "provenance": true,
+    "scope": "CURRENT_HISTORY",
+    "reviewed_revisions": 2,
+    "finalized_revisions": 2,
+    "last_decision_hash": "6985fe4d65444d94b59c09c233dcd1b5367db0e129f80115fb5c50febfbcba20"
+  },
+  "historical_prefix": {
+    "integrity": true,
+    "provenance": true,
+    "scope": "HISTORICAL_PREFIX",
+    "reviewed_revisions": 1,
+    "finalized_revisions": 2,
+    "last_decision_hash": "cfa79580a7a554f3915f41e22b7b1894e794b47ac9c1189016b6a5ecd2749202"
+  },
+  "comparison": {
+    "from": 1,
+    "to": 2,
+    "before_outcome": "REJECTED",
+    "after_outcome": "APPROVED",
+    "evidence_rules": {
+      "before": "MET",
+      "after": "MET"
+    },
+    "criteria": [
+      {
+        "id": "form_labels",
+        "requirement": "The contact form must associate a visible Email label with an email input using matching for and id attributes.",
+        "before": {
+          "finding": "MET",
+          "id": "form_labels",
+          "quote": "<label for=\"email\">Email</label>\n<input id=\"email\" name=\"email\" type=\"text\">",
+          "source_id": "artifact"
+        },
+        "after": {
+          "finding": "MET",
+          "id": "form_labels",
+          "quote": "<label for=\"email\">Email</label>\n<input id=\"email\" name=\"email\" type=\"email\" required>",
+          "source_id": "artifact"
+        },
+        "changed": true,
+        "resolved": false,
+        "regressed": false
+      },
+      {
+        "id": "keyboard_submit",
+        "requirement": "The form must include a native submit button reachable in normal keyboard tab order, without a negative tabindex.",
+        "before": {
+          "finding": "NOT_MET",
+          "id": "keyboard_submit",
+          "quote": "<button type=\"submit\" tabindex=\"-1\">Send message</button>",
+          "source_id": "artifact"
+        },
+        "after": {
+          "finding": "MET",
+          "id": "keyboard_submit",
+          "quote": "<button type=\"submit\">Send message</button>",
+          "source_id": "artifact"
+        },
+        "changed": true,
+        "resolved": true,
+        "regressed": false
+      },
+      {
+        "id": "required_email",
+        "requirement": "The email input must use type=email and the required attribute to prevent an empty submission.",
+        "before": {
+          "finding": "NOT_MET",
+          "id": "required_email",
+          "quote": "<input id=\"email\" name=\"email\" type=\"text\">",
+          "source_id": "artifact"
+        },
+        "after": {
+          "finding": "MET",
+          "id": "required_email",
+          "quote": "<input id=\"email\" name=\"email\" type=\"email\" required>",
+          "source_id": "artifact"
+        },
+        "changed": true,
+        "resolved": true,
+        "regressed": false
+      }
+    ],
+    "evidence": [
+      {
+        "id": "artifact",
+        "before": {
+          "bytes": 704,
+          "id": "artifact",
+          "role": "DELIVERABLE",
+          "sha256": "ebcf04bf9ab9c062aaa15ed8b7d4994a1530d591064423e4b15b1a7edb3c1849",
+          "url": "https://raw.githubusercontent.com/ANZA24k/MilestoneLock/0469067713b69c9e29b1bf132817f982312fa0fa/examples/incomplete.txt"
+        },
+        "after": {
+          "bytes": 744,
+          "id": "artifact",
+          "role": "DELIVERABLE",
+          "sha256": "c1fae174823299df8df2c066a9b3e7223938e5e0255bfa81f13ae177ea7ee288",
+          "url": "https://raw.githubusercontent.com/ANZA24k/MilestoneLock/0469067713b69c9e29b1bf132817f982312fa0fa/examples/completed.txt"
+        },
+        "change": "CHANGED"
+      },
+      {
+        "id": "checks",
+        "before": {
+          "bytes": 381,
+          "id": "checks",
+          "role": "CORROBORATION",
+          "sha256": "966f3c4a8e127dba6052065fd0ae30393a2f82b5ba13ffa9c5a4aec2f0b2ed59",
+          "url": "https://raw.githubusercontent.com/ANZA24k/MilestoneLock/0469067713b69c9e29b1bf132817f982312fa0fa/examples/checks.txt"
+        },
+        "after": {
+          "bytes": 381,
+          "id": "checks",
+          "role": "CORROBORATION",
+          "sha256": "966f3c4a8e127dba6052065fd0ae30393a2f82b5ba13ffa9c5a4aec2f0b2ed59",
+          "url": "https://raw.githubusercontent.com/ANZA24k/MilestoneLock/0469067713b69c9e29b1bf132817f982312fa0fa/examples/checks.txt"
+        },
+        "change": "UNCHANGED"
+      }
+    ],
+    "unresolved": []
+  },
+  "sources": {
+    "documents": 3,
+    "quotes": 6
+  },
+  "new_transactions": 0
+}
