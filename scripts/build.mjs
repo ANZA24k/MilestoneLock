@@ -3,3 +3,5 @@ import {build}from'esbuild';import{mkdir,copyFile,cp}from'node:fs/promises';awai
 await build({entryPoints:['web/plans.mjs'],bundle:true,minify:true,format:'esm',target:'es2022',outfile:'dist/plans.js'});await copyFile('web/plans.html','dist/plans.html');await copyFile('plan-deployment.json','dist/plan-deployment.json');
 
 await build({entryPoints:['web/audit.mjs'],bundle:true,minify:true,format:'esm',target:'es2022',outfile:'dist/audit.js'});await copyFile('web/audit.html','dist/audit.html');
+
+await build({entryPoints:['web/readiness.mjs'],bundle:true,minify:true,format:'esm',target:'es2022',outfile:'dist/readiness.js'});await copyFile('web/readiness.html','dist/readiness.html');

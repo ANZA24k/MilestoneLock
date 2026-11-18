@@ -1,14 +1,15 @@
 {
   "name": "milestonelock",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "private": true,
   "type": "module",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "test:web": "node --test tests/web.test.mjs tests/audit.test.mjs",
+    "test:web": "node --test tests/web.test.mjs tests/audit.test.mjs tests/readiness.test.mjs",
     "verify:live": "node scripts/verify-live.mjs",
     "verify:site": "node scripts/verify-site.mjs",
     "verify:audit": "node scripts/verify-audit-live.mjs",
+    "verify:readiness": "node scripts/verify-readiness-live.mjs",
     "verify:plans": "node scripts/verify-plan-live.mjs"
   },
   "dependencies": {
