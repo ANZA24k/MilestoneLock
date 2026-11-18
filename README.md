@@ -56,3 +56,7 @@ The contract has no privileged verdict setter, upgrade method, evidence-deletion
 ## Milestone v2: revision audit
 
 Open [/audit.html](https://milestonelock.ansaf1st34.chatgpt.site/audit.html) for per-criterion revision comparison, historical source checks, imported receipt provenance against finalized state, and audit exports. Both existing contract addresses are preserved. See [the v2 review guide](docs/MILESTONE_V2.md) and [dated live verification](docs/evidence/v2-audit-live.json).
+
+## Milestone v3: complete-project readiness
+
+The new `/readiness.html` workspace checks every milestone in a locked plan, shows dependency blockers and remaining attempts, extracts unresolved requirements, and gives the next action and responsible role. It exports a complete project handoff report and rejects detected concurrent changes during finalized reads. Both contracts and deployment manifests remain unchanged. See [the v3 delta, review path and publication status](docs/MILESTONE_V3.md) and [live contract verification](docs/evidence/v3-readiness-live.json). Run `npm run verify:readiness` to reproduce the live checks. V3 is available as source/build; publication to the existing website is blocked by the current hosting account lacking that Site.
